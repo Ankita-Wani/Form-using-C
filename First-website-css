@@ -1,0 +1,241 @@
+ *{
+    margin:  0;
+    padding: 0;
+  }
+  h1{
+    color: maroon;
+    text-align: center;
+  }
+  .sidebar
+{
+  position: fixed;
+  left: 0;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 250px;
+  height: 53%;
+  margin: 20px;
+  background-color: rgba(0,0,0,0.5);
+  border: 50px soid rgba(255,255,255.0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+.sidebar header{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  border-radius: 2px;
+  border: 50px soid rgba(255,255,255.0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0,0,0,0.3);
+  color: #fff;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  user-select: none;  
+}
+
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid black;
+  transition: .4s;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  border-radius: 2px;
+  border: 50px soid rgba(255,255,255.0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+ul li:hover a{
+  padding-left: 50px;
+}
+
+.sidebar ul a i{
+  margin-right: 16px;
+
+}
+  .footer {  
+             position: fixed;  
+             left: 10px;  
+             bottom: 5px;  
+             right: 10px;   
+             width: 100%;  
+             background-color: gray;  
+             color: white;  
+             text-align: center;  
+            }  
+    .header {
+             padding: 2px;
+             text-align: center;
+             
+             color: white;
+             font-size: 10px;
+            }
+  body {
+  background-image: url("first.jpg");
+  background-size: 220%;
+  
+}
+div.main{
+  width: 400px;
+  margin: 25px auto  0px auto;
+}
+h2{
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+div.register{
+  margin: 20px;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  font-size: 15px;
+  border-radius: 2px;
+  border: 50px soid rgba(255,255,255.0.3);
+  box-shadow: 2px 2px 15px
+  rgba(0,0,0,0.3);
+  color: #fff;
+}
+form#register{
+  margin: 40px;
+}
+#formItem label{
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+input#fname{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#mname{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#lname{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#birthday{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#email{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#pass{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#Address{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#city{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#state{
+  text-align: center;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+input#country{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5pxs
+  rgba(0,0,0,0.3);
+}
+
+
+
