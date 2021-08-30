@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="First.css">
+</head>
+<body>
+  <div class="sidebar">
+    <header>Employee Registration</header>
+    <ul>
+      <li><a href="#"><i class="fas fa-qrcode"></i>Home</a></li>
+      <li><a href="#"><i class="fas fa-link"></i>Blogs</a></li>
+      <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+      <li><a href="#"><i class="fas fa-question-circle"></i>About Us</a></li>
+      <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+    </ul>
+  </div>
+	<div class="footer">  
+      Employee Registration Form  
+</div> 
+<div class="header">
+  <h1> Employee Registration form </h1>
+</div>
+    <div class="main">
+    <div class="register">	
+      <h2> Register Here</h2>
+	<form id="register" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter your First name"><br>
+  <label for="mname">Middle name:</label><br>
+  <input type="text" id="mname" name="mname" placeholder="Enter your Middle name"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Enter your Last name"><br>
+  <label for="birthday">Enter the DOB:</label><br>
+  <input type="date" id="birthday" name="birthday" placeholder="Enter your Date of Birth"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+  <label for="pass">Enter Password:</label><br>
+  <input type="password" id="pass" name="password" placeholder="Enter your Password"><br>
+  <label for="sex">Gender:</label><br>
+  <input type="radio" id="sex" name="male">Male
+  <input type="radio" id="sex" name="female">Female
+  <input type="radio" id="sex" name="others">Others<br>
+  <label for="Address">Address:</label><br>
+  <input type="text" id="Address" name="Address" placeholder="Enter Address"><br>
+  <label for="city">City:</label><br>
+  <input type="text" id="city" name="city" placeholder="Enter City"><br>
+  <label for="state">State:</label><br>
+  <input type="text" id="state" name="state" placeholder="Enter State"><br>
+  <label for="country">Country:</label><br>
+  <select id="country" name="country">
+    <option value="India">India</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    <option value="Andorra">Andorra</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Bahamas">Bahamas</option>
+    <option value="Belarus">Belarus</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Benin">Benin</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Bolivia">Bolivia</option>
+    <option value="Brazil">Brazil</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Canada">Canada</option>
+    <option value="Chad">Chad</option>
+    <option value="Chile">Chile</option>
+    <option value="China">China</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Dominica">Dominica</option>
+    <option value="Egypt">Egypt</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Fiji">Fiji</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="Gabon">Gabon</option>
+    <option value="Gambia">Gambia</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Germany">Germany</option>
+    <option value="Greece">Greece</option>
+    <option value="Halti">Halti</option>
+    <option value="Hungary">Hungary</option>
+    <option value="Iceland">Iceland</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="Iran">Iran</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Japan">Japan</option>
+    <option value="Jordan">Alba</option>
+    <option value="Kenya">Kenya</option>
+    <option value="Kuwait">Kuwait</option>
+    <option value="Laos">Laos</option>
+    <option value="Lebanon">Lebonon</option>
+    <option value="Libya">Libya</option>
+    <option value="Malaysia">Malysia</option>
+    <option value="Maldives">Maldives</option>
+    <option value="Mali">Mali</option>
+    <option value="Malta">Malta</option>
+    <option value="Nambia">Nambia</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="oman">oman</option>
+    <option value="peru">Peru</option>
+    <option value="Poland">Poland</option>
+    <option value="Qatar">Qatar</option>
+    <option value="Russia">Russia</option>
+    <option value="Romania">Romania</option>
+    <option value="serbia">Serbia</option>
+    <option value="singapore">Singapore</option>
+    <option value="Togo">Togo</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Uganda">Uganda</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="UAE">UAE</option>
+    <option value="UK">UK</option>
+    <option value="Vanuatu">Vanuatu</option>
+    <option value="Vietnam">Vietnam</option>
+    <option value="Yemen">Yemen</option>
+    <option value="Zambia">Zambia</option>
+    <option value="Zimbabwe">Zimbabwe</option>
+  </select><br><br>
+  <label for="Your Skills:">You'r Skills:</label><br>
+  <input type="checkbox" id="java" name="lan1">
+  <label for="java">Java</label>
+  <input type="checkbox" id="html" name="lan2">
+  <label for="html">Html</label>
+  <input type="checkbox" id="css" name="lan3">
+  <label for="css">CSS</label>
+  <input type="checkbox" id="python" name="lan1">
+  <label for="python">Python</label>
+  <input type="checkbox" id="javascript" name="lan2">
+  <label for="javascript">Javascript</label><br><br>
+ 
+  <textarea name="message" rows="05" cols="30">Describe Yourself in short.</textarea>
+  <br><br>
+  <button type="submit" form="nameform" value="Submit">Submit</button>
+ <input type="reset" value="Reset">
+</div>
+</div>
+</form>
+</body>
+</html>
